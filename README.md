@@ -1,5 +1,8 @@
 # Jays Win Form #
 
+- using dotnet new winform
+- vstudio 2022 community
+
 ## commits by convention the prefix of my commits ##
 - / 
     - combining commit types. where applicable

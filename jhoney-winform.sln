@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jhoney-winform", "jhoney-winform.csproj", "{53F2255B-F2FB-4419-8432-7533E0E89CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F2255B-F2FB-4419-8432-7533E0E89CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F2255B-F2FB-4419-8432-7533E0E89CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F2255B-F2FB-4419-8432-7533E0E89CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F2255B-F2FB-4419-8432-7533E0E89CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC5C2DA1-3252-43B1-B267-334663E4DA06}
+	EndGlobalSection
+EndGlobal
