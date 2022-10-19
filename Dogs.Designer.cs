@@ -95,9 +95,11 @@ partial class Dogs
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(30, 271);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(357, 39);
+            this.textBox2.Size = new System.Drawing.Size(357, 120);
             this.textBox2.TabIndex = 6;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Dogs
             // 

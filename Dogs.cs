@@ -26,10 +26,7 @@ public partial class Dogs : Form
 
     private void button1_Click(object sender, EventArgs e)
     {
-
-            MessageBox.Show("~~~ clicked ~~~");
-            Console.WriteLine("~~~ clicked ~~~");
-
+        textBox2.Text =  $"Name  |  Breed   {Environment.NewLine}";        
         string ServerName = "tcp:jhoney-sql-tutorial.database.windows.net,1433;Initial";
         string Database = "jhoney";
         string Username = "mowgli";
@@ -54,9 +51,10 @@ public partial class Dogs : Form
 
             while (reader.Read())
             {
-                string friends = (string)reader[0];
-                MessageBox.Show($"~~~ friends {friends} ~~~");
-                textBox2.Text = friends.ToString();
+                string friendName = (string)reader[0];
+                string friendBreed = (string)reader[1];
+                //MessageBox.Show($"~~~ friends {friendName} ~~~");
+                textBox2.Text += $"{friendName} | {friendBreed}  {Environment.NewLine}";
             }
 
             reader.Close();
@@ -93,5 +91,10 @@ public partial class Dogs : Form
             Console.WriteLine("~~~ Login Failed, Information is Incorrect ~~~");
             MessageBox.Show("Login Failed, Information is Incorrect"); 
         }
+    }
+
+    private void textBox2_TextChanged(object sender, EventArgs e)
+    {
+
     }
 }
